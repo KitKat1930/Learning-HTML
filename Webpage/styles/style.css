@@ -10,13 +10,3 @@ h1{
     font-family:sans-serif;
     font-size:30 px;
 }
-
-<!--Here we accessed the parent div and set the value of the display property to grid.-->
-<!--After that, we set the fraction using the "grid-template-columns" property to create space for the columns.-->
-<!--Specifying 1fr three times will create three columns, all with equal spacing.-->
-<!--We also set a gap between the columns of 5 px.-->
-.parent{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5px;
-}
