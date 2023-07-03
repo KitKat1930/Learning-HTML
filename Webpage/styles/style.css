@@ -11,14 +11,16 @@ h1{
     font-size:30 px;
 }
 
-.column {
-  float: left;
-  width: 30%;
-  padding: 5px;
+div.wrapper{
+  margin-top: 0;
+  margin-bottom: 0;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  column-gap: 124px;
 }
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+.cookie img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}  
