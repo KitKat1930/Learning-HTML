@@ -17,6 +17,12 @@ h1{
 <!--We also set a gap between the columns of 5 px.-->
 .parent{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+.parent2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 5px;
 }
