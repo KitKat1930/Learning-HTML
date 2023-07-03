@@ -13,21 +13,20 @@ h1{
 }
 
 div.wrapper{
-  width:80%;
-  background-color: burlywood;
+
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
   display: grid;
-  grid-template-columns: 300px 300px 300px;
-  column-gap: 124px;
+  grid-template-columns: 200px 200px 200px;
+  column-gap: 50px;
   padding: 20px;
-  max-width: 500px;
+  max-width: 1000px;
 }
 
 .cookie img{
-  width: 300px;
-  height: 300px;
+  width: 100px;
+  height: 100px;
   display: inline-block;
 }  
