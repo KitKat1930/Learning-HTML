@@ -1,5 +1,5 @@
 body {
-    background-color:SandyBrown;
+    background-color:Bisque;
     color:white;
     font-family:sans-serif;
     text-align:center;
@@ -13,14 +13,21 @@ h1{
 }
 
 div.wrapper{
+  width:80%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
   display: grid;
   grid-template-columns: 300px 300px 300px;
   column-gap: 124px;
+  padding: 20px;
+  max-width: 500px;
 }
 
 .cookie img{
   width: 300px;
   height: 300px;
+  display: inline-block;
 }  
