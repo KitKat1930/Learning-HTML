@@ -64,3 +64,4 @@ If your radio buttons do not have a value attribute, the form data will make all
 
 The fieldset element is used to group related inputs and labels together in a web form. Fieldset elements are block-level elements, meaning that they appear on a new line.
 
+The legend element acts as a caption for the content in the fieldset element. It gives users context about what they should enter into that part of the form.
