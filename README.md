@@ -25,6 +25,7 @@ The figure element represents self-contained content and will allow you to assoc
 
 The figcaption element is used to add a caption to describe the image within the figure element.
                                         
-The following src attribute in the element img specifies the images URL (where the image is located). 
-All img elements should have an alt attribute. The alt attribute's text is used for screen readers to improve accessiblity and is displayed if the image fails to load. -->
-                                      
+There are also many kinds of inputs you can create using the type attribute. 
+You can easily create a password field, reset button, or a control to let users select a file from there computer.
+You can create a text field to get text input from a user by adding the type attribute with the value text to the input element.
+<!--  input type="text" -->
