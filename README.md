@@ -5,7 +5,7 @@ Here are some practice websites I will build while learning HTML.
 #### 1. FIRST LINE OF CODE
 All pages should begin with !DOCTYPE html. This special string is known as a declaration and ensures the browser tries to meet industry-wide specifications.
 !DOCTYPE html tells browsers that the document is an HTML5 document which is the latest version of HTML.
--!DOCTYPE html
+- !DOCTYPE html
 
 #### 2. HEAD ELEMENT
 The head element is used to contain metadata about the document, such as its title, links to stylesheets, and scripts. Metadata is information about the page that isn't displayed directly on the page.
