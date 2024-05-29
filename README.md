@@ -53,3 +53,5 @@ You can use radio buttons for questions where you want only one answer out of mu
 
 Label elements are used to help associate the text for an input element with the input element itself (especially for assistive technologies like screen readers).
 - It's a good idea to nest your radio button within a label element.
+
+The id attribute is used to identify specific HTML elements. Each id attribute's value must be unique from all other id values for the entire page.
