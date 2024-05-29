@@ -11,7 +11,7 @@ The main element is an element that needs both an opening tag and a closing tag.
 The section element helps seperate images from future content. This element helps with Search Engine Optimization and accessibility. 
 
 #### 3. IMG ELEMENT
-The img element has a self-closing tag. For example, you do not need to put <img> <\img>.
+The img element has a self-closing tag. For example, you do not need to put <\img>.
 The src attribute in the element img specifies the images URL (where the image is located). 
 All img elements should have an alt attribute. The alt attribute's text is used for screen readers to improve accessiblity and is displayed if the image fails to load.
 
@@ -30,18 +30,18 @@ The figcaption element is used to add a caption to describe the image within the
 There are also many kinds of inputs you can create using the type attribute. 
 You can easily create a password field, reset button, or a control to let users select a file from there computer.
 You can create a text field to get text input from a user by adding the type attribute with the value text to the input element.
-input type="text"
+- input type="text"
 
 In order for the form's data to be accessed by the location specified in the action attribute, you must give the text field a name attribute and assign it a value to the data being submitted.
-input type="text" name="name"
+- input type="text" name="name"
 
 Placeholder text is used to give people a hint about what kind of information to enter into an input. 
-input type="text" placeholder="cookie_recipe_url" name="cookie_recipe_url"
+- input type="text" placeholder="cookie_recipe_url" name="cookie_recipe_url"
 
 To prevent a user from submitting your form when required information is missing, you need to add the required attribute to the input element.
-input required type="text" name="cookie_recipe_url" placeholder="cookie_recipe_url"
+- input required type="text" name="cookie_recipe_url" placeholder="cookie_recipe_url"
 
 The button element is used to create a clickable button. You can even put text between the button tags, like Submit.
 The button you added will submit the form by default. However, relying on default behavior may cause confusion. 
 To solve this proble, you can add the type attribute with the value submit to the button to make it clear that it is a submit button.
-- <button type="submit">Submit</button>
+- button type="submit"
