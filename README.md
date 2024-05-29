@@ -29,3 +29,6 @@ There are also many kinds of inputs you can create using the type attribute.
 You can easily create a password field, reset button, or a control to let users select a file from there computer.
 You can create a text field to get text input from a user by adding the type attribute with the value text to the input element.
 input type="text"
+
+In order for the form's data to be accessed by the location specified in the action attribute, you must give the text field a name attribute and assign it a value to the data being submitted. 
+input type="text" name="name"
