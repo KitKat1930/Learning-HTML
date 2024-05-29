@@ -10,3 +10,5 @@ The img element has a self-closing tag. For example, you do not need to put <img
 
 The section element helps seperate images from future content.
 This element helps with Search Engine Optimization and accessibility.
+
+The figure element represents self-contained content and will allow you to associate an image with a caption.
