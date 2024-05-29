@@ -34,3 +34,6 @@ input type="text"
 
 In order for the form's data to be accessed by the location specified in the action attribute, you must give the text field a name attribute and assign it a value to the data being submitted. 
 input type="text" name="name"
+
+Placeholder text is used to give people a hint about what kind of information to enter into an input. 
+input type="text" placeholder="cookie recipe url" name="cookie recipe url"
