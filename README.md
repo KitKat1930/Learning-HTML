@@ -13,6 +13,7 @@ The src attribute in the element img specifies the images URL (where the image i
 All img elements should have an alt attribute. The alt attribute's text is used for screen readers to improve accessiblity and is displayed if the image fails to load.
 
 You can turn a text into a link.
+
 You can link another page with the anchor element (a). The anchor element is NOT a self-closing tag.
 A links text must be placed between the opening and closing tags of the anchor element (a).
 To open links an a new tab, you can use the target attribute to the anchor (a) element. The target attribute specifies where to open the linked document. 
