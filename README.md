@@ -85,4 +85,11 @@ The legend element acts as a caption for the content in the fieldset element. It
 
 Forms commonly use checkboxes for questions that may have more than one answer. The input element with a type attribute set to checkbox creates a checkbox.
 
+You can set browser behavior by adding self-closing meta elements in the head. Here's an example:
+
+#### 14. META ELEMENTS
+Inside the head element, nest a meta element with an attribute named charset. Set to the value to utf-8 which tells the browser how to encode characters for the page.
+Note that meta elements are self-closing.
+- meta charset="utf-8"
+
  <p>No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a></p>
