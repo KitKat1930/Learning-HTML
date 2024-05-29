@@ -9,7 +9,7 @@ The main element is an element that needs both an opening tag and a closing tag.
 The section element helps seperate images from future content. This element helps with Search Engine Optimization and accessibility. 
 
 The img element has a self-closing tag. For example, you do not need to put <img> <\img>.
-The following src attribute in the element img specifies the images URL (where the image is located). 
+The src attribute in the element img specifies the images URL (where the image is located). 
 All img elements should have an alt attribute. The alt attribute's text is used for screen readers to improve accessiblity and is displayed if the image fails to load.
 
 You can turn a text into a link.
