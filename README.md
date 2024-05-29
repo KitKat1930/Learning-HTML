@@ -59,3 +59,6 @@ The id attribute is used to identify specific HTML elements. Each id attribute's
 
 To make it so selecting one radio button automatically deselects the other, both buttons must have a name attribute with the same value.
 - input name="cookie" type="radio" id="chocolatechip"
+
+If your radio buttons do not have a value attribute, the form data will make all the id attributes = on. This is not useful when you have multiple buttons. For convenience, you can set the button's value attribute to the same value as its id attribute.
+
