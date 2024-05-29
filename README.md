@@ -62,3 +62,5 @@ To make it so selecting one radio button automatically deselects the other, both
 
 If your radio buttons do not have a value attribute, the form data will make all the id attributes = on. This is not useful when you have multiple buttons. For convenience, you can set the button's value attribute to the same value as its id attribute.
 
+The fieldset element is used to group related inputs and labels together in a web form. Fieldset elements are block-level elements, meaning that they appear on a new line.
+
