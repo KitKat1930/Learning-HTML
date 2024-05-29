@@ -42,3 +42,6 @@ To prevent a user from submitting your form when required information is missing
 input required type="text" name="cookie_recipe_url" placeholder="cookie_recipe_url"
 
 The button element is used to create a clickable button. You can even put text between the button tags, like Submit.
+The button you added will submit the form by default. However, relying on default behavior may cause confusion. 
+To solve this proble, you can add the type attribute with the value submit to the button to make it clear that it is a submit button.
+- button type="submit">Submit</button
