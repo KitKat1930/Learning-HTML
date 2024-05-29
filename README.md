@@ -55,4 +55,4 @@ Label elements are used to help associate the text for an input element with the
 - It's a good idea to nest your radio button within a label element.
 
 The id attribute is used to identify specific HTML elements. Each id attribute's value must be unique from all other id values for the entire page.
-- input type="radio" id="chocolate_chip"
+- input type="radio" id="chocolatechip"
