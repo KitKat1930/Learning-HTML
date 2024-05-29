@@ -50,3 +50,6 @@ To solve this proble, you can add the type attribute with the value submit to th
 
 You can use radio buttons for questions where you want only one answer out of multiple options. You can create options by adding text after the radio button. 
 - input type="radio"
+
+Label elements are used to help associate the text for an input element with the input element itself (especially for assistive technologies like screen readers).
+- It's a good idea to nest your radio button within a label element.
