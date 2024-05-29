@@ -43,11 +43,13 @@ Placeholder text is used to give people a hint about what kind of information to
 To prevent a user from submitting your form when required information is missing, you need to add the required attribute to the input element.
 - input required type="text" name="cookie_recipe_url" placeholder="cookie_recipe_url"
 
+#### 7. BUTTON ELEMENT
 The button element is used to create a clickable button. You can even put text between the button tags, like Submit.
 The button you added will submit the form by default. However, relying on default behavior may cause confusion. 
 To solve this proble, you can add the type attribute with the value submit to the button to make it clear that it is a submit button.
 - button type="submit"
 
+####8. RADIO BUTTONS
 You can use radio buttons for questions where you want only one answer out of multiple options. You can create options by adding text after the radio button. 
 - input type="radio"
 
@@ -65,3 +67,7 @@ If your radio buttons do not have a value attribute, the form data will make all
 The fieldset element is used to group related inputs and labels together in a web form. Fieldset elements are block-level elements, meaning that they appear on a new line.
 
 The legend element acts as a caption for the content in the fieldset element. It gives users context about what they should enter into that part of the form.
+
+#### 8. CHECKBOX
+
+Forms commonly use checkboxes for questions that may have more than one answer. The input element with a type attribute set to checkbox creates a checkbox.
