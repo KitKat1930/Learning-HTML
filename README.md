@@ -74,3 +74,5 @@ The legend element acts as a caption for the content in the fieldset element. It
 #### 10. CHECKBOX
 
 Forms commonly use checkboxes for questions that may have more than one answer. The input element with a type attribute set to checkbox creates a checkbox.
+
+ <p>No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a></p>
