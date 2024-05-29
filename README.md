@@ -32,8 +32,12 @@ You can easily create a password field, reset button, or a control to let users 
 You can create a text field to get text input from a user by adding the type attribute with the value text to the input element.
 input type="text"
 
-In order for the form's data to be accessed by the location specified in the action attribute, you must give the text field a name attribute and assign it a value to the data being submitted. 
+In order for the form's data to be accessed by the location specified in the action attribute, you must give the text field a name attribute and assign it a value to the data being submitted.
 input type="text" name="name"
 
 Placeholder text is used to give people a hint about what kind of information to enter into an input. 
-input type="text" placeholder="cookie recipe url" name="cookie recipe url"
+input type="text" placeholder="cookie_recipe_url" name="cookie_recipe_url"
+
+To prevent a user from submitting your form when required information is missing, you need to add the required attribute to the input element.
+input required type="text" name="cookie_recipe_url" placeholder="cookie_recipe_url"
+
