@@ -26,8 +26,10 @@ To open links an a new tab, you can use the target attribute to the anchor (a) e
 The figure element represents self-contained content and will allow you to associate an image with a caption.
 The figcaption element is used to add a caption to describe the image within the figure element.
 
-#### 6. INPUT                              
-There are also many kinds of inputs you can create using the type attribute. 
+#### 6. INPUT  
+- Input elements are self-closing!
+
+There are many kinds of inputs you can create using the type attribute. 
 You can easily create a password field, reset button, or a control to let users select a file from there computer.
 You can create a text field to get text input from a user by adding the type attribute with the value text to the input element.
 - input type="text"
@@ -45,3 +47,6 @@ The button element is used to create a clickable button. You can even put text b
 The button you added will submit the form by default. However, relying on default behavior may cause confusion. 
 To solve this proble, you can add the type attribute with the value submit to the button to make it clear that it is a submit button.
 - button type="submit"
+
+You can use radio buttons for questions where you want only one answer out of multiple options. 
+- input type="radio" Chocolate Chip Cookie
