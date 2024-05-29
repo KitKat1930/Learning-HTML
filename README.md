@@ -57,5 +57,5 @@ Label elements are used to help associate the text for an input element with the
 The id attribute is used to identify specific HTML elements. Each id attribute's value must be unique from all other id values for the entire page.
 - input type="radio" id="chocolatechip"
 
-Notice that both radio buttons can be selected at the same time. To make it so selecting one radio button automatically deselects the other, both buttons must have a name attribute with the same value.
+To make it so selecting one radio button automatically deselects the other, both buttons must have a name attribute with the same value.
 - input name="cookie" type="radio" id="chocolatechip"
