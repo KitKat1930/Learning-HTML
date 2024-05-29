@@ -41,3 +41,4 @@ input type="text" placeholder="cookie_recipe_url" name="cookie_recipe_url"
 To prevent a user from submitting your form when required information is missing, you need to add the required attribute to the input element.
 input required type="text" name="cookie_recipe_url" placeholder="cookie_recipe_url"
 
+The button element is used to create a clickable button. You can even put text between the button tags, like Submit.
