@@ -48,5 +48,5 @@ The button you added will submit the form by default. However, relying on defaul
 To solve this proble, you can add the type attribute with the value submit to the button to make it clear that it is a submit button.
 - button type="submit"
 
-You can use radio buttons for questions where you want only one answer out of multiple options. 
-- "<input type="radio"> Chocolate Chip Cookie"
+You can use radio buttons for questions where you want only one answer out of multiple options. You can create options by adding text after the radio button. 
+- input type="radio"
